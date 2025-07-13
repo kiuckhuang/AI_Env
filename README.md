@@ -91,13 +91,14 @@ True
 2. Edit `update/update_comfyui_and_python_dependencies.bat`
    *Replace URL line from:*  
    ```cmd
-   https://download.pytorch.org/whl/nightly/cu128
+   ..\python_embeded\python.exe -s -m pip install --upgrade --pre torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/nightly/cu128 -r ../ComfyUI/requirements.txt pygit2
    ```
 
    *Replace above URL line with:*  
    ```cmd
-   https://download.pytorch.org/whl/cu128
+   ..\python_embeded\python.exe -s -m pip install --upgrade torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128 -r ../ComfyUI/requirements.txt pygit2
    ```
+   
 3. Run:  
    ```cmd
    update/update_comfyui_and_python_dependencies.bat
