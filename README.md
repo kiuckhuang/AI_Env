@@ -61,7 +61,7 @@ True
 
 ### 5. Git Installation
 [https://git-scm.com/downloads/win](https://git-scm.com/downloads/win)  
-*Ensure "Use Git from Windows Command Prompt" is selected during installation*
+
 
 ---
 
