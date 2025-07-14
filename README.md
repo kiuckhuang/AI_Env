@@ -21,7 +21,7 @@ This document provides a step-by-step guide to configure an optimal AI developme
 
 **CUDA Toolkit (optional for self-compiling):**
 [https://developer.nvidia.com/cuda-downloads](https://developer.nvidia.com/cuda-downloads)  
-*Recommended: CUDA 12.8*
+*Current version: CUDA 12.9*
 
 ---
 
